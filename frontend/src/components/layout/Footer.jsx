@@ -50,15 +50,14 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Policies */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Our Services</h4>
+            <h4 className="text-lg font-semibold mb-4">Legal</h4>
             <ul className="space-y-2">
-              <li><Link to="/treatments/skin-diseases" className="text-gray-300 hover:text-white transition-colors">Skin Disorders</Link></li>
-              <li><Link to="/treatments/hair-diseases" className="text-gray-300 hover:text-white transition-colors">Hair Diseases</Link></li>
-              <li><Link to="/treatments/allergy" className="text-gray-300 hover:text-white transition-colors">Allergy Treatment</Link></li>
-              <li><Link to="/treatments/mental-health" className="text-gray-300 hover:text-white transition-colors">Mental Health</Link></li>
-              <li><Link to="/treatments/gastrointestinal" className="text-gray-300 hover:text-white transition-colors">Digestive Issues</Link></li>
+              <li><Link to="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms-conditions" className="text-gray-300 hover:text-white transition-colors">Terms & Conditions</Link></li>
+              <li><Link to="/refund-policy" className="text-gray-300 hover:text-white transition-colors">Refund Policy</Link></li>
+              <li><Link to="/cancellation-policy" className="text-gray-300 hover:text-white transition-colors">Cancellation Policy</Link></li>
             </ul>
           </div>
 
