@@ -7,6 +7,8 @@ import WhyChooseUs from '../components/home/WhyChooseUs';
 import DoctorSection from '../components/home/DoctorSection';
 import TestimonialsSection from '../components/home/TestimonialsSection';
 import StatsSection from '../components/home/StatsSection';
+import ContactSection from '../components/home/ContactSection';
+import MapSection from '../components/home/MapSection';
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <DoctorSection />
       <WhyChooseUs />
       <TestimonialsSection />
+      <ContactSection />
+      <MapSection />
     </div>
   );
 };
