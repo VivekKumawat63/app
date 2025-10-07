@@ -13,6 +13,14 @@ import Treatments from "./pages/Treatments";
 import TreatmentDetail from "./pages/TreatmentDetail";
 import Appointment from "./pages/Appointment";
 import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
+import RefundPolicy from "./pages/RefundPolicy";
+import CancellationPolicy from "./pages/CancellationPolicy";
+
+// Admin Components
+import AdminLogin from "./pages/admin/AdminLogin";
+import AdminDashboard from "./pages/admin/AdminDashboard";
 
 function App() {
   return (
