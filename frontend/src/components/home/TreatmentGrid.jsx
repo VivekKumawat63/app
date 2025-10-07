@@ -62,22 +62,28 @@ const TreatmentGrid = () => {
         {/* Treatment Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {treatments.slice(0, 6).map((treatment, index) => (
-            <Card key={treatment.id} className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+            <Card 
+              key={treatment.id} 
+              className={`group hover:shadow-xl transition-all duration-500 transform hover:-translate-y-3 hover:rotate-1 animate-fade-in-up stagger-${(index % 6) + 1} opacity-0 bg-gradient-to-br from-white to-gray-50`}
+            >
               <CardContent className="p-0">
                 {/* Image */}
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden rounded-t-lg">
                   <img
                     src={treatment.image}
                     alt={treatment.titleEnglish}
-                    className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                    className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-4 group-hover:translate-x-0">
+                    <span className="text-teal-600 font-semibold text-sm">New</span>
+                  </div>
                 </div>
                 
                 {/* Content */}
                 <div className="p-6 space-y-4">
                   <div className="text-center">
-                    <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                    <h3 className="text-lg font-semibold text-gray-800 mb-1 group-hover:text-teal-700 transition-colors duration-300">
                       {treatment.titleHindi}
                     </h3>
                     <p className="text-teal-600 font-medium">
@@ -85,13 +91,13 @@ const TreatmentGrid = () => {
                     </p>
                   </div>
                   
-                  <p className="text-gray-600 text-sm line-clamp-3">
+                  <p className="text-gray-600 text-sm line-clamp-3 leading-relaxed">
                     {treatment.description}
                   </p>
                   
                   <Button 
                     asChild 
-                    className="w-full bg-teal-600 hover:bg-teal-700 text-white"
+                    className="w-full bg-teal-600 hover:bg-teal-700 text-white transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
                   >
                     <Link to={`/treatments/${treatment.slug}`}>
                       Read More
