@@ -40,12 +40,18 @@ const floatingAnimation = `
 
 const TreatmentGrid = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gray-50 relative overflow-hidden">
+      <style>{floatingAnimation}</style>
+      
+      {/* Background decorative elements */}
+      <div className="absolute top-10 right-10 w-20 h-20 bg-teal-100 rounded-full opacity-20 animate-float"></div>
+      <div className="absolute bottom-20 left-10 w-16 h-16 bg-blue-100 rounded-full opacity-30 animate-float" style={{animationDelay: '1s'}}></div>
+      
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 animate-fade-in-up">
           <div className="flex items-center justify-center mb-6">
-            <span className="text-4xl mr-3">🩺</span>
+            <span className="text-4xl mr-3 animate-float">🩺</span>
             <h2 className="text-3xl font-bold text-teal-700">Book Online Treatment</h2>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -55,7 +61,7 @@ const TreatmentGrid = () => {
 
         {/* Treatment Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {treatments.map((treatment) => (
+          {treatments.slice(0, 6).map((treatment, index) => (
             <Card key={treatment.id} className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <CardContent className="p-0">
                 {/* Image */}
