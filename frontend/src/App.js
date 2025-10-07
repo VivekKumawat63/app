@@ -37,6 +37,14 @@ function App() {
               <Route path="/treatments/:slug" element={<TreatmentDetail />} />
               <Route path="/appointment" element={<Appointment />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-conditions" element={<TermsConditions />} />
+              <Route path="/refund-policy" element={<RefundPolicy />} />
+              <Route path="/cancellation-policy" element={<CancellationPolicy />} />
+              
+              {/* Admin Routes */}
+              <Route path="/admin/panel/login" element={<AdminLogin />} />
+              <Route path="/admin/panel/dashboard" element={<AdminDashboard />} />
             </Routes>
           </main>
           <Footer />
