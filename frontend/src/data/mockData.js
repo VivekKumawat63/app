@@ -86,6 +86,96 @@ export const treatments = [
     description: "Treatment for digestive disorders, acidity, gastritis, IBS, and other stomach problems.",
     symptoms: ["Acidity", "Bloating", "Indigestion", "Stomach pain"],
     treatment: "Natural homeopathic approach to restore digestive health and improve gut function."
+  },
+  {
+    id: 7,
+    titleHindi: "गुर्दे की पथरी",
+    titleEnglish: "Kidney Stones",
+    image: "https://images.unsplash.com/photo-1559581431-74d807d4d981?w=300&h=200&fit=crop",
+    slug: "kidney-stones",
+    description: "Safe and effective homeopathic treatment for kidney stones without surgery.",
+    symptoms: ["Severe pain", "Blood in urine", "Nausea", "Frequent urination"],
+    treatment: "Gentle homeopathic remedies that help dissolve stones and prevent recurrence."
+  },
+  {
+    id: 8,
+    titleHindi: "स्त्री संबंधी रोग",
+    titleEnglish: "Female Related Issues",
+    image: "https://images.unsplash.com/photo-1559850350-2c0fcf8e8b5e?w=300&h=200&fit=crop",
+    slug: "female-issues",
+    description: "Specialized treatment for women's health issues including PCOD, irregular periods, and fertility problems.",
+    symptoms: ["Irregular periods", "PCOD", "Fertility issues", "Hormonal imbalance"],
+    treatment: "Constitutional homeopathic treatment to balance hormones naturally."
+  },
+  {
+    id: 9,
+    titleHindi: "पुरुष संबंधी रोग",
+    titleEnglish: "Male Related Issues",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=200&fit=crop",
+    slug: "male-issues",
+    description: "Comprehensive treatment for men's health problems including erectile dysfunction and prostate issues.",
+    symptoms: ["Erectile dysfunction", "Prostate problems", "Low testosterone", "Fertility issues"],
+    treatment: "Natural homeopathic solutions for men's health concerns."
+  },
+  {
+    id: 10,
+    titleHindi: "जोड़ों का दर्द",
+    titleEnglish: "Joint Pain",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop",
+    slug: "joint-pain",
+    description: "Effective treatment for arthritis, joint pain, and mobility issues.",
+    symptoms: ["Joint stiffness", "Pain", "Swelling", "Reduced mobility"],
+    treatment: "Anti-inflammatory homeopathic medicines for long-term joint health."
+  },
+  {
+    id: 11,
+    titleHindi: "स्लिप डिस्क",
+    titleEnglish: "Slip Disc",
+    image: "https://images.unsplash.com/photo-1559757157-a4dc6b2d4f2f?w=300&h=200&fit=crop",
+    slug: "slip-disc",
+    description: "Non-surgical treatment for slip disc and back pain problems.",
+    symptoms: ["Back pain", "Leg pain", "Numbness", "Muscle weakness"],
+    treatment: "Homeopathic medicines to heal disc naturally without surgery."
+  },
+  {
+    id: 12,
+    titleHindi: "श्वसन संबंधी रोग",
+    titleEnglish: "Respiratory Diseases",
+    image: "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=300&h=200&fit=crop",
+    slug: "respiratory",
+    description: "Treatment for asthma, bronchitis, cough, and breathing problems.",
+    symptoms: ["Difficulty breathing", "Chronic cough", "Wheezing", "Chest congestion"],
+    treatment: "Constitutional treatment to strengthen respiratory system naturally."
+  },
+  {
+    id: 13,
+    titleHindi: "शिशु एवं बाल रोग",
+    titleEnglish: "Pediatrics",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=300&h=200&fit=crop",
+    slug: "pediatrics",
+    description: "Safe and gentle homeopathic treatment for children's health issues.",
+    symptoms: ["Growth problems", "Behavioral issues", "Frequent infections", "Digestive issues"],
+    treatment: "Child-friendly homeopathic medicines for healthy growth and development."
+  },
+  {
+    id: 14,
+    titleHindi: "मधुमेह टाइप-1,2",
+    titleEnglish: "Diabetes Type - 1,2",
+    image: "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=300&h=200&fit=crop",
+    slug: "diabetes",
+    description: "Comprehensive diabetes management with homeopathic medicines.",
+    symptoms: ["High blood sugar", "Frequent urination", "Excessive thirst", "Fatigue"],
+    treatment: "Constitutional treatment to manage diabetes and prevent complications."
+  },
+  {
+    id: 15,
+    titleHindi: "थायरॉयड",
+    titleEnglish: "Thyroid",
+    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=300&h=200&fit=crop",
+    slug: "thyroid",
+    description: "Natural treatment for thyroid disorders - both hypo and hyperthyroid.",
+    symptoms: ["Weight changes", "Fatigue", "Hair loss", "Mood changes"],
+    treatment: "Homeopathic medicines to normalize thyroid function naturally."
   }
 ];
 
